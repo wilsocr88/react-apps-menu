@@ -1,0 +1,59 @@
+#apps-bar {
+    background-color: transparent !important;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+}
+
+#apps-button {
+    background-color: transparent !important;
+    color: #333;
+    border: none;
+    width: 56px;
+    height: 48px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+div.dark-bg #apps-button {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+@media only screen and (max-width: 767px) {
+	#apps-bar {
+		right: 72px;
+	}
+	a.dropdown-item {
+		color: #0084cb !important;
+	}
+}
+
+#apps-button svg {
+    float: left;
+}
+
+#apps-button::after {
+	float: unset;
+}
+
+.app-icon {
+    display: inline-block !important;
+    width: 72px !important;
+    height: 80px;
+    margin: 4px;
+    font-size: small;
+    padding: 4px !important;
+    text-align: center !important;
+}
+
+.dropdown-menu.show.dropdown-menu-right {
+    min-width: 90px;
+    width: 250px;
+    max-width: max-content;
+    /*max-height: 264px;
+    overflow-y: scroll;*/
+    padding: 4px;
+	background-color: white !important;
+	color: #0084cb !important;
+}

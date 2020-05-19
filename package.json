@@ -1,0 +1,36 @@
+{
+  "name": "gcu-apps-menu",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-icons": "^3.10.0"
+  },
+  "description": "React component for standard GCU apps menu",
+  "main": "index.js",
+  "author": "Craig Wilson <cwilson@gcuusa.com>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/wilsocr88/apps-menu"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "identity-obj-proxy": "^3.0.0",
+    "react-test-renderer": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy"
+    }
+  }
+}
