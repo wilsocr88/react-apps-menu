@@ -1,5 +1,7 @@
 # React Apps Menu
 
+![](https://raw.githubusercontent.com/wilsocr88/react-apps-menu/master/React%20App%205-19-2020%209-34-34%20AM.png)
+
 ## Usage
 
 Import your icon components, and the AppsMenu component
