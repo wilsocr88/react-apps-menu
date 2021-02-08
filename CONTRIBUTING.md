@@ -5,7 +5,3 @@ Thanks for your interest in this React component. Contributions are welcome.
 Feel free to [submit a pull request](https://github.com/wilsocr88/react-apps-menu/pulls)
 or, if you find a bug, [an issue](https://github.com/wilsocr88/react-apps-menu/issues)
 (make sure it's a bug in the component, and not in your code or toolset!).
-
-## TODO
-
-* The component could take props to configure menu width and height, or take different types of icon (Images, other components) in the objects
